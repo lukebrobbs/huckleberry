@@ -59,10 +59,9 @@ header {
 .indented-heading {
   background: var(--colors-secondary-lighter);
   border-bottom: 8px solid var(--colors-secondary-darker);
-  margin-top: -24px;
+  margin-top: -16px;
   margin-left: -32px;
-  padding: 16px;
-  padding-left:32px;
+  padding: 16px 32px;
   width: -moz-fit-content;
   width: fit-content;
 }
