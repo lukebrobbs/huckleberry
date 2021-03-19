@@ -3,10 +3,61 @@
   font-family: 'Lato', sans-serif;
 }
 
+:root {
+  --colors-primary: hsl(160deg, 100%, 30%);
+  --colors-secondary-lighter: hsl(45deg, 100%, 50%);
+  --colors-secondary-darker: hsl(45deg, 100%, 40%);
+  --colors-gray-medium: hsl(0deg, 0%, 40%);
+  --colors-gray-light: hsl(0deg, 0%, 60%);
+  --colors-white: hsl(0deg, 0%, 100%);
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  height:100%;
+  background: var(--colors-gray-light);
 }
 
 /* Add styles here! */
+
+strong {
+  color: var(--colors-primary)
+}
+
+header {
+  border-bottom: 8px solid var(--colors-gray-medium);
+  background:var(--colors-white);
+}
+
+.max-width-wrapper {
+  max-width:600px;
+  margin: auto;
+}
+.intro-chunk {
+  padding:48px;
+  font-size: 1.25rem;
+  max-width: 400px;
+}
+.title {
+  font-size: 1.5rem;
+  padding:16px 0;
+}
+.card {
+  margin-top: 60px;
+  padding: 32px;
+  padding-bottom:16px;
+  background: var(--colors-white);
+  border-bottom: 8px solid var(--colors-gray-medium);
+}
+.indented-heading {
+  font-size: 1.25rem;
+  background: var(--colors-secondary-lighter);
+  border-bottom: 8px solid var(--colors-secondary-darker);
+  margin-top: -24px;
+  margin-left:-48px;
+  padding:16px 48px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
