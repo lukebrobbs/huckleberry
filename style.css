@@ -4,6 +4,7 @@
 }
 
 :root {
+  font-size: 18px;
   --colors-primary: hsl(160deg, 100%, 30%);
   --colors-secondary-lighter: hsl(45deg, 100%, 50%);
   --colors-secondary-darker: hsl(45deg, 100%, 40%);
@@ -32,36 +33,35 @@ header {
 }
 
 .max-width-wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
 .intro-chunk {
-  padding: 48px;
-  font-size: 1.25rem;
+  padding: 48px 0;
   max-width: 400px;
 }
 
 .title {
-  font-size: 1.5rem;
   padding: 16px 0;
 }
 
 .card {
+  margin: 0 -24px;
   margin-top: 60px;
-  padding: 32px;
+  padding: 24px;
   padding-bottom: 16px;
   background: var(--colors-white);
   border-bottom: 8px solid var(--colors-gray-medium);
 }
 
 .indented-heading {
-  font-size: 1.25rem;
   background: var(--colors-secondary-lighter);
   border-bottom: 8px solid var(--colors-secondary-darker);
   margin-top: -24px;
-  margin-left: -48px;
-  padding: 16px 48px;
+  margin-left: -32px;
+  padding: 16px;
+  padding-left:32px;
   width: -moz-fit-content;
   width: fit-content;
 }
